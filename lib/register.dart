@@ -14,6 +14,7 @@ class _RegisterState extends State<Register> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
         flexibleSpace: Image(
           image: AssetImage('images/space.png'),
           fit: BoxFit.cover,
